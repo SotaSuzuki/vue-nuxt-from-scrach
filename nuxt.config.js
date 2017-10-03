@@ -43,5 +43,8 @@ module.exports = {
     height: '5px',
     duration: 2500
   },
-  srcDir: 'client/'
+  srcDir: 'client/',
+  build: {
+    vendor: ['axios']
+  }
 }

@@ -1,10 +1,16 @@
 <template>
   <div class="container">
     <h1>Hello {{ name }}!</h1>
+    <h2>from assets directory</h2>
+    <img src="~/assets/img_01.png">
+    <h2>from static directory</h2>
+    <img src="/img_01.png">
   </div>
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   // コンポーネントコンポーネントのデータをセットする前に非同期の処理を行えるようにする
   asyncData (context) {
