@@ -1,0 +1,14 @@
+{
+  "name": "my-app",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "build:spa": "nuxt build --spa",
+    "start": "nuxt start",
+    "start:spa": "nuxt start --spa",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "1.0.0-rc11"
+  }
+}
