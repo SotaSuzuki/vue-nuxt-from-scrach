@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Hello {{ name }}!</h1>
+    <h1 class="title">Hello {{ name }}!</h1>
     <h2>from assets directory</h2>
     <img src="~/assets/img_01.png">
     <h2>from static directory</h2>
@@ -50,7 +50,7 @@ export default {
     background-color: cornflowerblue;
   }
   h1 {
-    color: aquamarine;
+    color: black;
     font-size: 100px;
   }
 </style>
