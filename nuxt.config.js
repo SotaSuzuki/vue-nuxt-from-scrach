@@ -12,7 +12,7 @@ module.exports = {
       { charset: 'utf-8' },
       {
         name: 'viewport',
-        content: 'width=device-width, initial-scale=1',
+        content: 'width=device-width, initial-scale=1'
       },
       {
         hid: 'description',
@@ -44,6 +44,9 @@ module.exports = {
     duration: 2500
   },
   srcDir: 'client/',
+  css: [
+    '~assets/styles.scss'
+  ],
   build: {
     vendor: ['axios']
   }
